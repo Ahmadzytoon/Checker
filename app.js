@@ -106,6 +106,7 @@ function Show(id) {
     document.getElementById('Profile').style.display='none';
 
     document.getElementById(id).style.display='block';
+
    if(id=="home"){
     document.getElementById('fas1').style.color='red';
     document.getElementById('fas2').style.color='#0622bc';
